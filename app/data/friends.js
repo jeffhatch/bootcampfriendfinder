@@ -1,0 +1,123 @@
+// ===============================================================================
+// DATA
+// Below data will hold all of the reserved tables.
+// Initially we just set it equal to a "dummy" customer.
+// But you could have it be an empty array as well.
+// ===============================================================================
+var friends = [
+  {
+      "name":"Owen",
+      "photo":"https://images-na.ssl-images-amazon.com/images/M/MV5BMTgwMzQ4ODYxMV5BMl5BanBnXkFtZTcwNDAwMTc2NQ@@._V1_UX214_CR0,0,214,317_AL_.jpg",
+      "scores":[
+         5,
+         1,
+         4,
+         4,
+         5,
+         1,
+         2,
+         5,
+         4,
+         1
+          ]
+      },
+  {
+  "name":"Billy Bob",
+  "photo":"https://vignette1.wikia.nocookie.net/fargo/images/3/3a/Billy_bob_thornton.jpg",
+  "scores":[
+     5,
+     1,
+     4,
+     4,
+     5,
+     1,
+     2,
+     5,
+     4,
+     1
+      ]
+  },
+{
+  "name":"Karina",
+  "photo":"http://pbha.org/wp-content/uploads/2015/07/Karina-300x300-c-center.jpg",
+  "scores":[
+     5,
+     1,
+     4,
+     3,
+     2,
+     6,
+     9,
+     8,
+     9,
+     9
+      ]
+},
+{
+  "name":"Miriam",
+  "photo":"https://www.hrw.org/sites/default/files/styles/square/public/media/images/photographs/Screen%20Shot%202014-01-21%20at%209.14.02%20AM_1.png",
+  "scores":[
+     5,
+     1,
+     4,
+     3,
+     2,
+     6,
+     9,
+     8,
+     9,
+     9
+      ]
+},
+{
+  "name":"Lisa",
+  "photo":"https://www.hoganlovells.com/~/media/hogan-lovells/images/new-portrait-images/partner-portraits/ellmanlisah21711.jpg",
+  "scores":[
+     5,
+     1,
+     4,
+     3,
+     2,
+     6,
+     9,
+     8,
+     9,
+     9
+      ]
+},
+{
+  "name":"Nicole",
+  "photo":"https://pbs.twimg.com/profile_images/835203293597089794/bzegLoe5.jpg",
+  "scores":[
+     5,
+     1,
+     4,
+     3,
+     2,
+     6,
+     9,
+     8,
+     9,
+     9
+      ]
+},
+{
+  "name":"Ken",
+  "photo":"http://i.dailymail.co.uk/i/pix/2016/01/31/10/30C0BA1000000578-3425007-image-a-40_1454237333782.jpg",
+  "scores":[
+     5,
+     1,
+     4,
+     3,
+     2,
+     6,
+     9,
+     8,
+     9,
+     9
+      ]
+}
+]
+
+// Note how we export the array. This makes it accessible to other files using require.
+module.exports = friends;
